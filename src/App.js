@@ -1,10 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Routers from './Router';
+import GlobalStyles from './assets/font/globalFont'
+import Main from './Screens/Main/Main'
 
 function App() {
-  return (<Routers/>);
+  return (
+    <>    
+      <GlobalStyles/>
+      <Main/>
+
+    </>
+  );
 }
 
 export default App;

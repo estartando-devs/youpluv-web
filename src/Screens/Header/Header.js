@@ -18,10 +18,10 @@ export default function Header() {
             <MyText>YouPluv</MyText>
             <MyText subTitle>Prevenção de enchentes na palma da mão.</MyText>
           </div>
-          <ul id='list' style={{listStyleType:'none', position:'absolute', right:10, bottom:0}}>
-              <li><img src={home}/></li>
-              <li><img src={smartphone}/></li>
-              <li><img src={aboutus}/></li>
+          <ul id='list'>
+              <li className='list_item'><img src={home}/></li>
+              <li className='list_item'><img src={smartphone}/></li>
+              <li className='list_item'><img src={aboutus}/></li>
           </ul>
       </Content>
           <MyImg mobile={isSmall + isMedium} src={arrow}/>

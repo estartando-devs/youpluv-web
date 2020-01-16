@@ -3,7 +3,7 @@ import backgroundDesktop from '../../assets/images/backgroundDesktop.png'
 import background from '../../assets/images/backgroundHeader.png'
 
 const Container = styled.div`
-width:100vw;
+min-width:10vw;
 height:100vh;
 background:#49A7DE;
 background-image:url(${props => props.mobile ? background : backgroundDesktop});
@@ -26,6 +26,19 @@ justify-content:space-between;
 height:20%;
 width:90%
 margin-top:200px;
+    #list{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        list-style-type:none;
+        position:absolute;
+        right:10px;
+        bottom:0px;
+        .list_item{
+            padding:10px;
+        }
+    }
 ${props=> props.mobile && css`
 width:80%;
 #list{

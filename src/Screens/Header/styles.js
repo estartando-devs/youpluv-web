@@ -6,7 +6,7 @@ const Container = styled.div`
   min-width: 10vw;
   height: 100vh;
   background: #49a7de;
-  background-image: url(${props => props.mobile ? background : backgroundDesktop});
+  background-image: url(${props =>props.mobile ? background : backgroundDesktop});
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -17,7 +17,7 @@ const Container = styled.div`
     css`
       display: flex;
       align-items: center;
-      height: 110vh;
+      height: 100vh;
       justify-content: center;
     `}
 `;
@@ -64,11 +64,12 @@ const MyText = styled.h1`
 const MyImg = styled.img`
   position: absolute;
   bottom: 30px;
+  fill: #fff;
   ${props =>
     props.mobile &&
     css`
-      bottom: -30px;
-    `}
+      bottom: 20px;
+    `};
 `;
 
 export { Container, MyText, Content, MyImg };

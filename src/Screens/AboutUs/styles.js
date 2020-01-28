@@ -4,7 +4,6 @@ const Container = styled.div`
   ${props =>
     props.mobile &&
     css`
-    /* display: none; */
   height: 100vh;
   display: flex;
   min-width: 100vw;

@@ -1,29 +1,35 @@
 import React from "react";
 import { useMedia } from "../../hooks/useMedia";
 import { Container } from "./styles";
-import illustration from "../../assets/images/illustration.png";
-export default function ProductView() {
+import ArrowSvg from "../../assets/images/icons/arrow.svg";
+import Smartphone from "../../assets/images/smartphone.png";
+// import Mobile from "./Mobile/Mobile";
+export default function AboutUs() {
   const { isMedium, isSmall } = useMedia();
 
+  const PlayStoreUrl = `https://play.google.com/store/search?q`;
   return (
     <>
-      <Container outro={isSmall + isMedium}>
-        <h1 id="Title">A ideia</h1>
-        <div id="containerTexts">
-          <h2 id="subTitle">
-            O aplicativo YouPluv foi criado para auxiliar na prevenção de
-            desastres causados pelas chuvas, trazendo informações de chuva em
-            tempo real de diversas áreas.
-          </h2>
-          <h2 id="subTitle">
-            Tendo a colaboração da própria população, com apenas um simples
-            pluviômetro caseiro e possível gerar informações para a base de
-            sistemas e assim podemos emitir alertas para a população quando
-            houver riscos de desastre.
-          </h2>
-        </div>
-        <img id="illustration" src={illustration}></img>
+      <Container desktop={isSmall + isMedium} mobile={isSmall + isMedium}>
+        {/* <div class="content" desktop={isSmall + isMedium}>
+          <img class="phone" src={Smartphone} alt="" />
+          <div>
+            <h1>
+              Construa seu pluviômetro caseiro e envie dados de chuvas quando
+              quiser
+            </h1>
+            <p>
+              Basta assistir ao nosso tutorial de como construir seu pluviômetro
+              e estará pronto para coletar e enviar dados.
+            </p>
+            <a href={PlayStoreUrl} target="_blank">
+              <button>BAIXAR APP</button>
+            </a>
+          </div>
+          <img class="arrow" src={ArrowSvg} />
+        </div> */}
       </Container>
+      {/* <Mobile desktop={isSmall + isMedium} mobile={isSmall + isMedium} /> */}
     </>
   );
 }

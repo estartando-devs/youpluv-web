@@ -1,49 +1,68 @@
 import styled, { css } from "styled-components";
-
+import mobile from "./Mobile/Mobile";
 const Container = styled.div`
-  ${props =>
-    props.outro &&
-    css`
-    /* display: none; */
+  width: 100%;
   height: 100vh;
   display: flex;
-  min-width: 100vw;
-  flex-direction: column;
-  border-top: 1px solid black;
-  /* display: ${props => (props.desktop ? "flex" : "none")}; */
-  #Title {
-    color: #2b9cc2;
-    font-size: 22px;
-    margin-left: 10px;
-    line-height: 27px;
-    font-weight: bold;
-    font-style: normal;
-    font-family: "Montserrat", sans-serif;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #c4c4c4;
+  .content {
+    display: flex;
   }
-  /* ${props => props.desktop && css``} */
-
-  #containerTexts {
-    width: 81vw;
-    margin: 0 auto;
-    #subTitle {
-      display: flex;
+  .phone {
+    width: 324px;
+    height: 494px;
+  }
+  div {
+    width: 60em;
+    h1 {
+      width: 20em;
+      color: #2b9cc2;
+      font-size: 36px;
+      font-weight: bold;
+      line-height: 44px;
+      font-style: normal;
+      font-family: "Montserrat";
+    }
+    p {
+      width: 30em;
       color: #00151c;
-      font-size: 14px;
-      flex-wrap: wrap;
-      min-width: 246px;
+      font-size: 18px;
       font-weight: 500;
-      margin: 20px auto;
+      line-height: 22px;
+      font-style: normal;
+      font-family: "Montserrat";
+    }
+    button {
+      width: 367px;
+      height: 40px;
+      border: none;
+      outline: none;
+      color: #ffffff;
+      font-size: 14px;
+      margin-top: 7em;
+      fonttrue-weight: bold;
       line-height: 17px;
       font-style: normal;
-      text-overflow: ellipsis;
-      justify-content: center;
-      font-family: Arial, sans-serif bold;
+      text-align: center;
+      background: #2b9cc2;
+      border-radius: 20px;
+      font-family: "Montserrat";
+      transition: 0.8s;
+      &:hover {
+        opacity: 0.6;
+        transition: 0.8s;
+      }
+      /* ::before {
+                opacity: 1;
+                transition: 0.8s;
+              } */
     }
   }
-  #illustration {
-    width: 81vw;
-    margin: auto auto;
+  img {
+    width: 40px;
   }
-  `};
 `;
+
 export { Container };

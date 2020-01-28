@@ -11,8 +11,8 @@ export default function Main() {
   return (
     <Container>
       <Header />
-      <ProductView />
       <AboutUs />
+      <ProductView />
       <CallStore />
       <Footer />
     </Container>

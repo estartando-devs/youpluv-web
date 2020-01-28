@@ -1,24 +1,25 @@
 import styled, { webkit } from "styled-components";
-import Ellipse from "../../assets/images/Ellipse.svg";
-import Button from "../../assets/images/Button.svg";
+import Ellipse from "../../../assets/images/Ellipse.svg";
+import Button from "../../../assets/images/Button.svg";
 
 const Container = styled.div`
   height: 100vh;
   display: flex;
   min-width: 10vw;
   align-items: center;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   border-top: 1px solid #c4c4c4;
   h1 {
     width: 16em;
     margin: 0 auto;
-    color: #343434;
+    color: #2b9cc2;
     font-size: 20px;
-    font-size: 36px;
     font-weight: bold;
-    line-height: 44px;
+    line-height: 27px;
     font-style: normal;
     margin-bottom: 5em;
+    text-align: center;
     font-family: "Montserrat";
   }
 

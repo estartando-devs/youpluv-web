@@ -1,49 +1,90 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const Container = styled.div`
-  min-width: 10vw;
+  ${props =>
+    props.mobile &&
+    css`
+    /* display: none; */
   height: 100vh;
   display: flex;
-  color: #2b9cc2;
-  align-items: center;
+  min-width: 100vw;
   flex-direction: column;
-  justify-content: center;
   border-top: 1px solid black;
-  h1 {
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: bold;
+  #Title {
+    color: #2b9cc2;
+    font-size: 22px;
+    margin-left: 10px;
     line-height: 27px;
-    font-style: normal;
-    text-align: center;
-    font-family: "Montserrat";
-  }
-  #Test {
-    width: 92%;
-    height: 25em;
-    display: flex;
-    margin: 10px auto;
-    justify-content: flex-end;
-  }
-  button {
-    width: 265px;
-    height: 40px;
-    border: none;
-    outline: none;
-    color: #ffffff;
-    font-size: 14px;
     font-weight: bold;
-    line-height: 17px;
     font-style: normal;
-    text-align: center;
-    background: #2b9cc2;
-    border-radius: 20px;
-    font-family: "Montserrat";
-    &:hover {
-      opacity: 0.6;
-      transition: 0.8s;
+    font-family: "Montserrat", sans-serif;
+  }
+  /* ${props => props.desktop && css``} */
+
+  #subTexts {
+    width: 319px;
+    margin: 0 auto ;
+    h2 {
+      display: flex;
+      color: #00151c;
+      font-size: 14px;
+      flex-wrap: wrap;
+      min-width: 246px;
+      font-weight: 500;
+      margin: 20px auto;
+      line-height: 17px;
+      font-style: normal;
+      text-overflow: ellipsis;
+      justify-content: center;
+      font-family: Arial, sans-serif bold;
     }
   }
+  #illustration {
+    min-width: 75vw;
+    margin: auto auto;
+  }
+  `};
+  ${props =>
+    props.desktop
+      ? true
+      : css`
+          width: 100%;
+          height: 690px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .containerText {
+            h1 {
+              color: #2b9cc2;
+              font-size: 36px;
+              font-weight: bold;
+              line-height: 44px;
+              font-style: normal;
+              font-family: "Montserrat";
+            }
+            #subTexts {
+              width: 340px;
+              margin: 0 auto;
+              h2 {
+                display: flex;
+                color: #00151c;
+                font-size: 14px;
+                flex-wrap: wrap;
+                min-width: 246px;
+                font-weight: 500;
+                margin: 20px auto;
+                line-height: 17px;
+                font-style: normal;
+                text-overflow: ellipsis;
+                justify-content: center;
+                font-family: Arial, sans-serif bold;
+              }
+            }
+          }
+          #illustration {
+            width: 600px;
+            height: 385px;
+          }
+        `};
 `;
-
 export { Container };

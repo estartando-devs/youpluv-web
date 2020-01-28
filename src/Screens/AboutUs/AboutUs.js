@@ -1,21 +1,35 @@
 import React from "react";
-
+import { useMedia } from "../../hooks/useMedia";
 import { Container } from "./styles";
-import ArrowSvg from '../../assets/images/icons/arrow.svg'
-export default function AboutUs() {
-  const PlayStoreUrl = `https://play.google.com/store/search?q`
+import illustration from "../../assets/images/illustration.png";
+export default function ProductView() {
+  const { isMedium, isSmall } = useMedia();
+
   return (
-    <Container>
-      <h1>
-        Acesse notícias publicadas
-        <br />
-        pela Defesa Civil
-      </h1>
-      <div id="Test">
-        <img src={ArrowSvg}/>
-      </div>
-      <a href={PlayStoreUrl} target="_blank"><button>BAIXAR APP</button></a>
-      
-    </Container>
+    <>
+      <Container desktop={isSmall + isMedium} mobile={isSmall + isMedium}>
+        <div
+          class="containerText"
+          mobile={isSmall + isMedium}
+          id="containerTexts"
+        >
+          <h1 id="Title">A ideia</h1>
+          <div id="subTexts">
+            <h2>
+              O aplicativo YouPluv foi criado para auxiliar na prevenção de
+              desastres causados pelas chuvas, trazendo informações de chuva em
+              tempo real de diversas áreas.
+            </h2>
+            <h2>
+              Tendo a colaboração da própria população, com apenas um simples
+              pluviômetro caseiro e possível gerar informações para a base de
+              sistemas e assim podemos emitir alertas para a população quando
+              houver riscos de desastre.
+            </h2>
+          </div>
+        </div>
+        <img id="illustration" src={illustration}></img>
+      </Container>
+    </>
   );
 }

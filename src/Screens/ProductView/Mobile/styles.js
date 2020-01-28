@@ -9,25 +9,28 @@ const Container = styled.div`
   justify-content: center;
   border-top: 1px solid #c4c4c4;
   h1 {
+    width: 295px;
     color: #2b9cc2;
     font-size: 20px;
     font-weight: bold;
     line-height: 27px;
     font-style: normal;
+    text-align: center;
     font-family: "Montserrat";
   }
   p {
     display: none;
   }
   #subContainer {
-    width: 92%;
-    height: 25em;
+    width: 90%;
+    height: 30em;
     display: flex;
-    margin: 20px auto;
-    flex: 0.8;
+    margin: 15px auto;
+    align-items: center;
+    justify-content: center;
     .phone {
-      width: 300px;
-      height: 400px;
+      width: 305px;
+      height: 468px;
       margin: auto auto;
     }
     .arrow {
@@ -53,6 +56,5 @@ const Container = styled.div`
       transition: 0.8s;
     }
   }
-  display: none;
 `;
 export { Container };

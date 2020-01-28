@@ -11,13 +11,11 @@ export default function AboutUs() {
   return (
     <Container desktop={isSmall + isMedium} mobile={isSmall + isMedium}>
       <h1>
-        Acesse notícias publicadas
-        <br />
-        pela Defesa Civil
+        Construa seu pluviômetro caseiro e envie dados de chuvas quando quiser
       </h1>
-      <div>
-        <img src={Smartphone} />
-        <img src={ArrowSvg} />
+      <div id="subContainer">
+        <img class="phone" src={Smartphone} />
+        <img class="arrow" src={ArrowSvg} />
       </div>
       <a href={PlayStoreUrl} target="_blank">
         <button>BAIXAR APP</button>

@@ -19,7 +19,7 @@ const Container = styled.div`
     h1 {
       width: 20em;
       color: #2b9cc2;
-      font-size: 36px;
+      font-size: 31px;
       font-weight: bold;
       line-height: 44px;
       font-style: normal;

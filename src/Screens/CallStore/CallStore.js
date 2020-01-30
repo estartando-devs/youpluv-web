@@ -22,7 +22,6 @@ export default function CallStore() {
             <h2 id="Text">GOOGLE PLAY</h2>
           </button>
         </div>
-        >
       </div>
       <img src={IllustrationApp} />
     </Container>

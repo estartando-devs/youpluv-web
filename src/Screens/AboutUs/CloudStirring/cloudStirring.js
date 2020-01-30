@@ -1,48 +1,84 @@
-import React, { useEffect } from "react";
-import { ActivityIndicator, Text } from "react-native";
-import { Container, Content } from "./styles";
-import LottieView from "lottie-react-native";
-import Layout from "../../../constants/Layout";
-import { useState } from "react";
-import { Animations } from "../../../assets/animations";
+import React from "react";
+import Lottie from "react-lottie";
+import { Container } from "./styles";
+import animationData from "../../../assets/Animation/cloudStirring.json";
 
-export default function DayNight(props) {
-  const { text = "Aguarde..." } = props;
-  const date = new Date();
-  let animation = React.createRef();
-
-  useEffect(() => {
-    const playAnimation = props.navigation.addListener("didFocus", () => {
-      if (animation) animation.play();
-    });
-    return () => playAnimation.remove();
-  }, []);
-  lottie.loadAnimation({
-    container: element, 
-    renderer: 'svg',
+export default function CloudStirring() {
+  const defaultOptions = {
     loop: true,
     autoplay: true,
-    path: 'data.json'  });
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
   return (
     <Container>
-      
-      <LottieView
-        ref={myAnimation => {
-          animation = myAnimation;
-        }}
+      <Lottie
         autoSize
         autoPlay
         loop
         speed={0.1}
-        style={{
-          width: Layout.window.width * 1.6
-        }}
         hardwareAccelerationAndroid={true}
-        source={Animations.dayNight}
-        // OR find more Lottie files @ https://lottiefiles.com/featured
-        // Just click the one you like, place that file in the 'assets' folder to the left, and replace the above 'require' statement
+        options={defaultOptions}
       />
-      {/* <ActivityIndicator style={{marginHorizontal: 20}} size="large" color="#121212" />
-            <Text>{text}</Text> */}
     </Container>
   );
+}
+
+// import React from "react";
+// import Lottie from "react-lottie";
+// import animationData from "../../../assets/Animation/cloudStirring.json";
+
+// export default class LottieControl extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = { isStopped: false, isPaused: false };
+//   }
+
+//   render() {
+//     const buttonStyle = {
+//       display: "block",
+//       margin: "10px auto"
+//     };
+
+//     const defaultOptions = {
+//       loop: true,
+//       autoplay: true,
+//       animationData: animationData,
+//       rendererSettings: {
+//         preserveAspectRatio: "xMidYMid slice"
+//       }
+//     };
+
+//     return (
+//       <div>
+//         <Lottie
+//           options={defaultOptions}
+//           height={400}
+//           width={400}
+//           isStopped={this.state.isStopped}
+//           isPaused={this.state.isPaused}
+//         />
+//         <button
+//           style={buttonStyle}
+//           onClick={() => this.setState({ isStopped: true })}
+//         >
+//           stop
+//         </button>
+//         <button
+//           style={buttonStyle}
+//           onClick={() => this.setState({ isStopped: false })}
+//         >
+//           play
+//         </button>
+//         <button
+//           style={buttonStyle}
+//           onClick={() => this.setState({ isPaused: !this.state.isPaused })}
+//         >
+//           pause
+//         </button>
+//       </div>
+//     );
+//   }
+// }

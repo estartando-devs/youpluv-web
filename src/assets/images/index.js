@@ -8,6 +8,8 @@ import Ellipse from "./Ellipse.svg";
 import LogoBrazilFoundation from "./logoBrazilFoundation.png";
 import LogoDefeçaCivil from "./logoDefeçaCivil.png";
 import LogoFundação from "./logoFundação.png";
+import YouPluv from "./logoYouPluv.png";
+
 import Icons from "./icons";
 
 const Images = {
@@ -20,6 +22,7 @@ const Images = {
   LogoFundação,
   Smartphone,
   LogoDevs,
+  YouPluv,
   Ellipse,
   Icons
 };

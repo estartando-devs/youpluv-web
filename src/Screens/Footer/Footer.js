@@ -12,10 +12,10 @@ export default function Footer() {
         <h2>Desenvolvido por:</h2>
         <img src={Images.LogoDevs} alt="" />
       </div>
-      <div>
+      <div class="apoio">
         <h2>Apoio:</h2>
         <img src={Images.LogoBrazilFoundation} alt="" />
-        <img src={Images.LogoFundação} alt="" />
+        <img id="LogoFundação" src={Images.LogoFundação} alt="" />
       </div>
       <div>
         <h2>Em parceria:</h2>

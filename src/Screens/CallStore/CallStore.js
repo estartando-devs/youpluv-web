@@ -4,6 +4,7 @@ import Mobile from "./Mobile/Mobile";
 import { Container } from "./styles";
 import Playstore from "../../assets/images/icons/playstore.png";
 import IllustrationApp from "../../assets/images/illustration-app.png";
+import TextGooglePlay from "../../assets/images/AndroidAppOnGoogle.svg";
 export default function CallStore() {
   const { isLarge } = useMedia();
 
@@ -18,8 +19,7 @@ export default function CallStore() {
             <img src={Playstore} alt="" />
           </div>
           <button id="btn">
-            <p id="subText">Android App On GOOGLE PLAY</p>
-            <h2 id="Text">GOOGLE PLAY</h2>
+            <img src={TextGooglePlay} alt="" />
           </button>
         </div>
       </div>

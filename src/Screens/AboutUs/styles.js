@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import CloudStirring from "./CloudStirring/cloudStirring";
+import CloudStirring from "../../assets/Animation/cloudStirring.json";
 
 const Container = styled.div`
   ${props =>
@@ -10,6 +10,9 @@ const Container = styled.div`
       min-width: 100vw;
       flex-direction: column;
       border-top: 1px solid black;
+      background-image: url(${props =>
+        props.mobile ? CloudStirring : CloudStirring});
+
       #Title {
         color: #2b9cc2;
         font-size: 22px;

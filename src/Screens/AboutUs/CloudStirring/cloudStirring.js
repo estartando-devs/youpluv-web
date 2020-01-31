@@ -5,7 +5,7 @@ import animationData from "../../../assets/Animation/cloudStirring.json";
 
 export default function CloudStirring() {
   const defaultOptions = {
-    loop: true,
+    // loop: true,
     autoplay: true,
     animationData: animationData,
     rendererSettings: {
@@ -15,10 +15,13 @@ export default function CloudStirring() {
   return (
     <Container>
       <Lottie
+        width={"100%"}
+        height={"100vh"}
+        zoom={1}
         autoSize
         autoPlay
         loop
-        speed={0.1}
+        speed={0.7}
         hardwareAccelerationAndroid={true}
         options={defaultOptions}
       />

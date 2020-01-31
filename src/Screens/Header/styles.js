@@ -6,7 +6,8 @@ const Container = styled.div`
   min-width: 10vw;
   height: 100vh;
   background: #49a7de;
-  background-image: url(${props =>props.mobile ? background : backgroundDesktop});
+  background-image: url(${props =>
+    props.mobile ? background : backgroundDesktop});
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -28,16 +29,25 @@ const Content = styled.div`
   height: 20%;
   width: 90%;
   #list {
+    top: 320px;
+    width: 10px;
+    right: 0px;
+    bottom: 320px;
     display: flex;
-    justify-content: center;
+    position: fixed;
+    background: #0e223a;
     align-items: center;
-    flex-direction: column;
     list-style-type: none;
-    position: absolute;
-    right: 10px;
-    bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     .list_item {
-      padding: 10px;
+      padding: 15px;
+      margin-right: 35px;
+      &:hover {
+        fill: black;
+      }
     }
   }
   ${props =>

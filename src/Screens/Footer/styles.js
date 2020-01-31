@@ -7,14 +7,24 @@ const Container = styled.div`
   text-align: center;
   align-items: center;
   justify-content: space-around;
-  border-top: 1px solid #c4c4c4;
+  border-top: 5px solid #c4c4c4;
+  background-color: #0e223a;
+  /* flex: 1; */
   div {
-    flex: 1;
-    height: 100%;
+    height: 12em;
   }
-  #LogoFundação {
-    position: relative;
-    top: -15px;
+  .flex {
+    width: 100%;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .content {
+    height: 3em;
+    display: flex;
+    align-items: center;
   }
   h2 {
     color: #727376;
@@ -26,19 +36,28 @@ const Container = styled.div`
     font-family: "Montserrat";
   }
   img {
-    width: 120px;
-    margin: 20px 15px;
+    max-width: 120px;
+    margin: 5px 15px;
   }
   ${props =>
     props.mobile &&
     css`
-      min-height: 75vh;
+      height: 35vh;
       flex-direction: column;
-
-      div {
+      .flex {
+        margin-top: -45px;
+      }
+      .content {
+        width: 100%;
+        height: 5em;
         display: flex;
         align-items: center;
-        flex-direction: column;
+        justify-content: center;
+
+        img {
+          min-width: 20vw;
+          margin: 5px 0px;
+        }
       }
     `};
 `;

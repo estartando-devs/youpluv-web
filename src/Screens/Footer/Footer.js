@@ -8,18 +8,17 @@ export default function Footer() {
 
   return (
     <Container mobile={isSmall + isMedium}>
-      <div>
+      <div class="flex">
         <h2>Desenvolvido por:</h2>
         <img src={Images.LogoDevs} alt="" />
       </div>
-      <div class="apoio">
+      <div class="apoio flex">
         <h2>Apoio:</h2>
-        <img src={Images.LogoBrazilFoundation} alt="" />
-        <img id="LogoFundação" src={Images.LogoFundação} alt="" />
-      </div>
-      <div>
-        <h2>Em parceria:</h2>
-        <img src={Images.LogoDefeçaCivil} alt="" />
+        <div class="content ">
+          <img src={Images.LogoBrazilFoundation} alt="" />
+          <img src={Images.LogoFundação} alt="" />
+          <img src={Images.LogoDefeçaCivil} alt="" />
+        </div>
       </div>
     </Container>
   );

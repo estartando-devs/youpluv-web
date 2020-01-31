@@ -1,29 +1,33 @@
 {
   "files": {
     "main.css": "/youpluv-web/static/css/main.b323f77d.chunk.css",
-    "main.js": "/youpluv-web/static/js/main.169cd45e.chunk.js",
-    "main.js.map": "/youpluv-web/static/js/main.169cd45e.chunk.js.map",
+    "main.js": "/youpluv-web/static/js/main.071d0a02.chunk.js",
+    "main.js.map": "/youpluv-web/static/js/main.071d0a02.chunk.js.map",
     "runtime-main.js": "/youpluv-web/static/js/runtime-main.e349c0c3.js",
     "runtime-main.js.map": "/youpluv-web/static/js/runtime-main.e349c0c3.js.map",
-    "static/js/2.8a80f23f.chunk.js": "/youpluv-web/static/js/2.8a80f23f.chunk.js",
-    "static/js/2.8a80f23f.chunk.js.map": "/youpluv-web/static/js/2.8a80f23f.chunk.js.map",
+    "static/js/2.e5804ae9.chunk.js": "/youpluv-web/static/js/2.e5804ae9.chunk.js",
+    "static/js/2.e5804ae9.chunk.js.map": "/youpluv-web/static/js/2.e5804ae9.chunk.js.map",
     "index.html": "/youpluv-web/index.html",
-    "precache-manifest.3054902d2ae68b197cce3ad1b09410b3.js": "/youpluv-web/precache-manifest.3054902d2ae68b197cce3ad1b09410b3.js",
+    "precache-manifest.114d134189868331a81ecef8fb948a44.js": "/youpluv-web/precache-manifest.114d134189868331a81ecef8fb948a44.js",
     "service-worker.js": "/youpluv-web/service-worker.js",
     "static/css/main.b323f77d.chunk.css.map": "/youpluv-web/static/css/main.b323f77d.chunk.css.map",
-    "static/js/2.8a80f23f.chunk.js.LICENSE": "/youpluv-web/static/js/2.8a80f23f.chunk.js.LICENSE",
+    "static/js/2.e5804ae9.chunk.js.LICENSE": "/youpluv-web/static/js/2.e5804ae9.chunk.js.LICENSE",
+    "static/media/AndroidAppOnGoogle.svg": "/youpluv-web/static/media/AndroidAppOnGoogle.c91b1d2d.svg",
     "static/media/Button.svg": "/youpluv-web/static/media/Button.ae337edd.svg",
     "static/media/Ellipse.svg": "/youpluv-web/static/media/Ellipse.f3515195.svg",
     "static/media/arrow.svg": "/youpluv-web/static/media/arrow.79d7497d.svg",
-    "static/media/backgroundDesktop.png": "/youpluv-web/static/media/backgroundDesktop.713853dc.png",
+    "static/media/backgroundDesktop.png": "/youpluv-web/static/media/backgroundDesktop.a263e818.png",
     "static/media/backgroundHeader.png": "/youpluv-web/static/media/backgroundHeader.e8f95d05.png",
+    "static/media/home.svg": "/youpluv-web/static/media/home.173e32d4.svg",
     "static/media/illustration-app.png": "/youpluv-web/static/media/illustration-app.5797aef7.png",
-    "static/media/smartphone.png": "/youpluv-web/static/media/smartphone.331ed1d2.png"
+    "static/media/illustration.png": "/youpluv-web/static/media/illustration.527a82bf.png",
+    "static/media/logoBrazilFoundation.png": "/youpluv-web/static/media/logoBrazilFoundation.5437ed8b.png",
+    "static/media/smartphone.png": "/youpluv-web/static/media/smartphone.517550b4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e349c0c3.js",
-    "static/js/2.8a80f23f.chunk.js",
+    "static/js/2.e5804ae9.chunk.js",
     "static/css/main.b323f77d.chunk.css",
-    "static/js/main.169cd45e.chunk.js"
+    "static/js/main.071d0a02.chunk.js"
   ]
 }

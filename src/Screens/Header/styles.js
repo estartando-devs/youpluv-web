@@ -5,34 +5,51 @@ import background from "../../assets/images/backgroundHeader.png";
 const Container = styled.div`
   min-width: 10vw;
   height: 100vh;
+  display: flex;
   background: #49a7de;
-  background-image: url(${props =>
-    props.mobile ? background : backgroundDesktop});
+  background-image: url(${props =>  props.mobile ? background : backgroundDesktop});
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
   align-items: flex-start;
   justify-content: center;
+  #arrow {
+    display: contents;
+  }
+  #Title {
+    color: #ffffff;
+    font-size: 51px;
+    font-weight: bold;
+    line-height: 0px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+  }
   ${props =>
     props.mobile &&
     css`
       display: flex;
       align-items: center;
-      height: 100vh;
       justify-content: center;
     `}
 `;
 const Content = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 20%;
+  /* justify-content: center; */
+  height: 80%;
   width: 90%;
+  .containerText {
+    display: flex;
+    flex-direction: column;
+    #logo {
+      display: none;
+    }
+  }
+
   #list {
-    top: 320px;
+    top: 310px;
     width: 10px;
     right: 0px;
-    bottom: 320px;
+    bottom: 310px;
     display: flex;
     position: fixed;
     background: #0e223a;
@@ -45,22 +62,37 @@ const Content = styled.div`
     .list_item {
       padding: 15px;
       margin-right: 35px;
-      &:hover {
-        fill: black;
-      }
     }
   }
   ${props =>
     props.mobile &&
     css`
-      width: 80%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      .containerText {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+
+        #Title {
+          display: none;
+        }
+        #logo {
+          display: flex;
+        }
+        h2 {
+          width: 15em;
+        }
+      }
       #list {
         display: none;
       }
     `}
 `;
 
-const MyText = styled.h1`
+const MyText = styled.h2`
   color: white;
   font-weight: bold;
   font-size: 36px;

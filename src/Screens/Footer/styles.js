@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 const Container = styled.div`
   min-width: 10vw;
-  height: 20vh;
+  /* height: 20vh; */
   display: flex;
   text-align: center;
   align-items: center;
@@ -32,7 +32,7 @@ const Container = styled.div`
   ${props =>
     props.mobile &&
     css`
-      height: 75vh;
+      min-height: 75vh;
       flex-direction: column;
 
       div {

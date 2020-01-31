@@ -3,7 +3,7 @@ import Ellipse from "../../assets/images/Ellipse.svg";
 import Button from "../../assets/images/Button.svg";
 
 const Container = styled.div`
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   min-width: 10vw;
   align-items: center;
@@ -20,6 +20,10 @@ const Container = styled.div`
     font-style: normal;
     margin-bottom: 5em;
     font-family: "Montserrat";
+    
+    @media (min-width: 1024px) {
+      margin-bottom: 50px;
+    }
   }
 
   .containerButton {

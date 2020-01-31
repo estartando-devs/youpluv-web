@@ -5,44 +5,58 @@ const Container = styled.div`
   ${props =>
     props.mobile &&
     css`
-      height: 100vh;
+      z-index: 5;
+      min-height: 100vh;
       display: flex;
       min-width: 100vw;
       flex-direction: column;
       border-top: 1px solid black;
+      background-color: transparent;
       background-image: url(${props =>
         props.mobile ? CloudStirring : CloudStirring});
+      justify-content: center;
 
-      #Title {
-        color: #2b9cc2;
-        font-size: 22px;
-        margin-left: 10px;
-        line-height: 27px;
-        font-weight: bold;
-        font-style: normal;
-        font-family: "Montserrat", sans-serif;
-      }
-
-      #subTexts {
-        width: 319px;
+      #containerTexts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
         margin: 0 auto;
-        h2 {
-          display: flex;
-          color: #00151c;
-          font-size: 14px;
-          flex-wrap: wrap;
-          min-width: 246px;
-          font-weight: 500;
-          margin: 20px auto;
-          line-height: 17px;
+        
+        #Title {
+          color: #2b9cc2;
+          font-size: 22px;
+          margin-left: 10px;
+          line-height: 27px;
+          font-weight: bold;
           font-style: normal;
-          text-overflow: ellipsis;
-          justify-content: center;
-          font-family: Arial, sans-serif bold;
+          font-family: "Montserrat", sans-serif;
+        }
+
+        #subTexts {
+          width: calc(319px - 30px);
+          margin: 0 auto;
+          h2 {
+            display: flex;
+            color: #00151c;
+            font-size: 14px;
+            flex-wrap: wrap;
+            min-width: 246px;
+            font-weight: 500;
+            margin: 20px auto;
+            line-height: 17px;
+            font-style: normal;
+            text-overflow: ellipsis;
+            justify-content: center;
+            font-family: Arial, sans-serif bold;
+          }
         }
       }
+      
       #illustration {
-        min-width: 75vw;
+        width: 70%;
+        max-width: 300px;
+        /* min-width: 75vw; */
         margin: auto auto;
       }
     `};
@@ -54,7 +68,7 @@ const Container = styled.div`
           height: 690px;
           display: flex;
           align-items: center;
-          justify-content: center;
+          justify-content: space-evenly;
           background-image: url(${CloudStirring});
           /* <CloudStirring {...props} /> */
 

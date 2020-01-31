@@ -10,9 +10,10 @@ export default function ProductView(props) {
   return (
     <>
       <CloudStirring>
+      </CloudStirring>
         <Container desktop={isSmall + isMedium} mobile={isSmall + isMedium}>
           <div
-            class="containerText"
+            className="containerText"
             mobile={isSmall + isMedium}
             id="containerTexts"
           >
@@ -33,7 +34,7 @@ export default function ProductView(props) {
           </div>
           <img id="illustration" src={illustration}></img>
         </Container>
-      </CloudStirring>
+      {/* </CloudStirring> */}
     </>
   );
 }

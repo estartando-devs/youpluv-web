@@ -3,7 +3,7 @@ import Ellipse from "../../../assets/images/Ellipse.svg";
 import Button from "../../../assets/images/Button.svg";
 
 const Container = styled.div`
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   min-width: 10vw;
   align-items: center;

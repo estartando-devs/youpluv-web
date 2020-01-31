@@ -20,10 +20,10 @@ const Container = styled.div`
     font-style: normal;
     margin-bottom: 5em;
     font-family: "Montserrat";
-    
-    @media (min-width: 1024px) {
-      margin-bottom: 50px;
-    }
+    margin-bottom: 50px;
+  }
+  #TextBtn {
+    cursor: pointer;
   }
 
   .containerButton {

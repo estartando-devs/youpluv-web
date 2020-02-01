@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/youpluv-web/static/css/main.b323f77d.chunk.css",
-    "main.js": "/youpluv-web/static/js/main.2252aaee.chunk.js",
-    "main.js.map": "/youpluv-web/static/js/main.2252aaee.chunk.js.map",
-    "runtime-main.js": "/youpluv-web/static/js/runtime-main.e349c0c3.js",
-    "runtime-main.js.map": "/youpluv-web/static/js/runtime-main.e349c0c3.js.map",
-    "static/js/2.e5804ae9.chunk.js": "/youpluv-web/static/js/2.e5804ae9.chunk.js",
-    "static/js/2.e5804ae9.chunk.js.map": "/youpluv-web/static/js/2.e5804ae9.chunk.js.map",
+    "main.js": "/youpluv-web/static/js/main.7109cfc0.chunk.js",
+    "main.js.map": "/youpluv-web/static/js/main.7109cfc0.chunk.js.map",
+    "runtime-main.js": "/youpluv-web/static/js/runtime-main.5b759235.js",
+    "runtime-main.js.map": "/youpluv-web/static/js/runtime-main.5b759235.js.map",
+    "static/css/2.5ffa1744.chunk.css": "/youpluv-web/static/css/2.5ffa1744.chunk.css",
+    "static/js/2.c3ce036f.chunk.js": "/youpluv-web/static/js/2.c3ce036f.chunk.js",
+    "static/js/2.c3ce036f.chunk.js.map": "/youpluv-web/static/js/2.c3ce036f.chunk.js.map",
     "index.html": "/youpluv-web/index.html",
-    "precache-manifest.430b2934caee597489b537285f829875.js": "/youpluv-web/precache-manifest.430b2934caee597489b537285f829875.js",
+    "precache-manifest.c763ae8639546e3ca241ae33866fb833.js": "/youpluv-web/precache-manifest.c763ae8639546e3ca241ae33866fb833.js",
     "service-worker.js": "/youpluv-web/service-worker.js",
+    "static/css/2.5ffa1744.chunk.css.map": "/youpluv-web/static/css/2.5ffa1744.chunk.css.map",
     "static/css/main.b323f77d.chunk.css.map": "/youpluv-web/static/css/main.b323f77d.chunk.css.map",
-    "static/js/2.e5804ae9.chunk.js.LICENSE": "/youpluv-web/static/js/2.e5804ae9.chunk.js.LICENSE",
+    "static/js/2.c3ce036f.chunk.js.LICENSE": "/youpluv-web/static/js/2.c3ce036f.chunk.js.LICENSE",
     "static/media/AndroidAppOnGoogle.svg": "/youpluv-web/static/media/AndroidAppOnGoogle.c91b1d2d.svg",
     "static/media/Button.svg": "/youpluv-web/static/media/Button.ae337edd.svg",
     "static/media/Ellipse.svg": "/youpluv-web/static/media/Ellipse.f3515195.svg",
@@ -22,12 +24,15 @@
     "static/media/illustration-app.png": "/youpluv-web/static/media/illustration-app.5797aef7.png",
     "static/media/illustration.png": "/youpluv-web/static/media/illustration.527a82bf.png",
     "static/media/logoBrazilFoundation.png": "/youpluv-web/static/media/logoBrazilFoundation.5437ed8b.png",
+    "static/media/smartPhoneFeed.png": "/youpluv-web/static/media/smartPhoneFeed.1ad1952f.png",
+    "static/media/smartPhoneHome.png": "/youpluv-web/static/media/smartPhoneHome.0becd43c.png",
     "static/media/smartphone.png": "/youpluv-web/static/media/smartphone.517550b4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e349c0c3.js",
-    "static/js/2.e5804ae9.chunk.js",
+    "static/js/runtime-main.5b759235.js",
+    "static/css/2.5ffa1744.chunk.css",
+    "static/js/2.c3ce036f.chunk.js",
     "static/css/main.b323f77d.chunk.css",
-    "static/js/main.2252aaee.chunk.js"
+    "static/js/main.7109cfc0.chunk.js"
   ]
 }

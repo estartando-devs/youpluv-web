@@ -4,6 +4,7 @@ import { Container } from "./styles";
 import ArrowSvg from "../../assets/images/icons/arrow.svg";
 import Smartphone from "../../assets/images/smartphone.png";
 import Mobile from "./Mobile/Mobile";
+
 export default function AboutUs() {
   const { isMedium, isSmall, isLarge } = useMedia();
 

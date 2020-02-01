@@ -2,7 +2,8 @@ import React from "react";
 import { useMedia } from "../../../hooks/useMedia";
 import { Container } from "./styles";
 import ArrowSvg from "../../../assets/images/icons/arrow.svg";
-import Smartphone from "../../../assets/images/smartphone.png";
+import { Slide } from "react-slideshow-image";
+import Images from "../../../assets/images";
 
 export default function AboutUs() {
   const { isMedium, isSmall } = useMedia();
@@ -13,10 +14,25 @@ export default function AboutUs() {
       <h1>
         Construa seu pluviômetro caseiro e envie dados de chuvas quando quiser
       </h1>
-      <div id="subContainer">
-        <img class="phone" src={Smartphone} />
-        <img class="arrow" src={ArrowSvg} />
-      </div>
+      {/* <div id="subContainer">
+      </div> */}
+      <Slide class="slide">
+        <div className="each-slide slideImgs">
+          <div>
+            <img class="slideImgs" src={Images.SmartPhoneHome} alt="" />
+          </div>
+        </div>
+        <div className="each-slide slideImgs">
+          <div>
+            <img class="slideImgs" src={Images.Smartphone} alt="" />
+          </div>
+        </div>
+        <div className="each-slide slideImgs">
+          <div>
+            <img class="slideImgs" src={Images.SmartPhoneFeed} alt="" />
+          </div>
+        </div>
+      </Slide>
       <a href={PlayStoreUrl} target="_blank">
         <button>BAIXAR APP</button>
       </a>

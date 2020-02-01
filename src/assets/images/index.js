@@ -4,6 +4,8 @@ import IllustrationApp from "./illustration-app.png";
 import Illustration from "./illustration.png";
 import LogoDevs from "./logoDevs.png";
 import Smartphone from "./smartphone.png";
+import SmartPhoneFeed from "./smartPhoneFeed.png";
+import SmartPhoneHome from "./smartPhoneHome.png";
 import Ellipse from "./Ellipse.svg";
 import LogoBrazilFoundation from "./logoBrazilFoundation.png";
 import LogoDefeçaCivil from "./logoDefeçaCivil.png";
@@ -18,6 +20,8 @@ const Images = {
   BackgroundHeader,
   LogoDefeçaCivil,
   IllustrationApp,
+  SmartPhoneFeed,
+  SmartPhoneHome,
   Illustration,
   LogoFundação,
   Smartphone,

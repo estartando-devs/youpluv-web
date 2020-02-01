@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import Imagens from "../../../assets/images";
 
 const Container = styled.div`
   margin-bottom: 10px;
@@ -22,16 +23,39 @@ const Container = styled.div`
   p {
     display: none;
   }
-  #subContainer {
-    width: 90%;
+  .slide {
     height: 30em;
-    display: flex;
     margin: 15px auto;
-    align-items: center;
-    justify-content: center;
-    .phone {
-      width: 305px;
-      height: 468px;
+    .react-slideshow-container .nav:last-of-type {
+      /* margin-left: -30px; */
+      background-image: url(${Imagens.Icons.ArrowSvg});
+      background-repeat: no-repeat;
+      color: #ffffff;
+    }
+    .react-slideshow-container .nav {
+      height: 30px;
+      background: none;
+      width: 30px;
+      z-index: 10;
+      text-align: center;
+      cursor: pointer;
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .react-slideshow-container .nav span {
+      display: none;
+    }
+    .react-slideshow-container {
+      display: flex;
+      align-items: center;
+      width: 100vw;
+    }
+    .slideImgs {
+      width: 310px;
+      /* height: 468px; */
       margin: auto auto;
     }
     .arrow {

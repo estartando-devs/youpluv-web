@@ -4,12 +4,11 @@ import Imagens from "../../../assets/images";
 const Container = styled.div`
   margin-bottom: 10px;
   min-width: 10vw;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  border-top: 1px solid #c4c4c4;
   h1 {
     width: 295px;
     color: #2b9cc2;
@@ -30,6 +29,7 @@ const Container = styled.div`
       /* margin-left: -30px; */
       background-image: url(${Imagens.Icons.ArrowSvg});
       background-repeat: no-repeat;
+      margin-right: 10px;
       color: #ffffff;
     }
     .react-slideshow-container .nav {
@@ -63,12 +63,14 @@ const Container = styled.div`
     }
   }
   button {
-    width: 265px;
+    width: 300px;
     height: 40px;
     border: none;
     outline: none;
     color: #ffffff;
     font-size: 14px;
+    margin-top: 25px;
+    font-weight: bold;
     font-weight: bold;
     line-height: 17px;
     font-style: normal;

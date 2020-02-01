@@ -3,12 +3,11 @@ import Ellipse from "../../assets/images/Ellipse.svg";
 import Button from "../../assets/images/Button.svg";
 
 const Container = styled.div`
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   min-width: 10vw;
   align-items: center;
   justify-content: space-evenly;
-  border-top: 1px solid #c4c4c4;
   h1 {
     width: 16em;
     margin: 0 auto;

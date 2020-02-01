@@ -50,7 +50,7 @@ export default function AboutUs() {
             estará pronto para coletar e enviar dados.
           </p>
           <a href={PlayStoreUrl} target="_blank">
-            <button>BAIXAR APP</button>
+            <button>BAIXAR &nbsp; APP</button>
           </a>
         </div>
       </div>

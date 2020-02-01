@@ -44,7 +44,7 @@ export default function AboutUs() {
         </div>
       </Slide>
       <a href={PlayStoreUrl} target="_blank">
-        <button>BAIXAR APP</button>
+        <button>BAIXAR &nbsp; APP</button>
       </a>
     </Container>
   );

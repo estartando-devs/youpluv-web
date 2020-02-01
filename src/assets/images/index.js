@@ -1,6 +1,6 @@
 import BackgroundDesktop from "./backgroundDesktop.png";
 import BackgroundHeader from "./backgroundHeader.png";
-import IllustrationApp from "./illustration-app.png";
+import IllustrationApp from "./illustrationApp.png";
 import Illustration from "./illustration.png";
 import LogoDevs from "./logoDevs.png";
 import Smartphone from "./smartphone.png";

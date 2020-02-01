@@ -45,7 +45,7 @@ const Container = styled.div`
       height: 35vh;
       flex-direction: column;
       .flex {
-        margin-top: -45px;
+        margin-top: -30px;
       }
       .content {
         width: 100%;
@@ -55,7 +55,7 @@ const Container = styled.div`
         justify-content: center;
 
         img {
-          min-width: 20vw;
+          max-width: 100px;
           margin: 5px 0px;
         }
       }

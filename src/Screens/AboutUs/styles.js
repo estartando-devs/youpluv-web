@@ -23,7 +23,6 @@ const Container = styled.div`
       display: flex;
       min-width: 100vw;
       flex-direction: column;
-      border-top: 1px solid black;
 
       #Title {
         color: #2b9cc2;
@@ -31,6 +30,7 @@ const Container = styled.div`
         margin-left: 10px;
         line-height: 27px;
         font-weight: bold;
+        margin: 35px 15px;
         font-style: normal;
         font-family: "Montserrat", sans-serif;
       }
@@ -47,7 +47,7 @@ const Container = styled.div`
       h2 {
         display: flex;
         color: #00151cd1;
-        font-size: 18px;
+        font-size: 15px;
         flex-wrap: wrap;
         min-width: 50vw;
         font-weight: 100;

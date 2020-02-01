@@ -3,15 +3,14 @@ import Ellipse from "../../../assets/images/Ellipse.svg";
 import Button from "../../../assets/images/Button.svg";
 
 const Container = styled.div`
-  min-height: 100vh;
   display: flex;
   min-width: 10vw;
+  min-height: 80vh;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  border-top: 1px solid #c4c4c4;
   h1 {
-    width: 16em;
+    width: 15em;
     margin: 0 auto;
     color: #2b9cc2;
     font-size: 20px;

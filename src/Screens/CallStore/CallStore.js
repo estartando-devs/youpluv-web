@@ -2,8 +2,7 @@ import React from "react";
 import { useMedia } from "../../hooks/useMedia";
 import Mobile from "./Mobile/Mobile";
 import { Container } from "./styles";
-import Playstore from "../../assets/images/icons/playstore.png";
-import IllustrationApp from "../../assets/images/illustration-app.png";
+import Imagens from "../../assets/images";
 import TextGooglePlay from "../../assets/images/AndroidAppOnGoogle.svg";
 export default function CallStore() {
   const { isLarge } = useMedia();
@@ -18,7 +17,7 @@ export default function CallStore() {
         <a href={PlayStoreUrl} target="_blank">
           <div class="containerButton">
             <div class="circle">
-              <img src={Playstore} alt="" />
+              <img src={Imagens.Icons.Playstore} alt="" />
             </div>
             <button id="btn">
               <img id="TextBtn" src={TextGooglePlay} alt="" />
@@ -26,9 +25,11 @@ export default function CallStore() {
           </div>
         </a>
       </div>
-      <img src={IllustrationApp} />
+      <img src={Imagens.IllustrationApp} />
     </Container>
   ) : (
     <Mobile />
   );
 }
+
+  

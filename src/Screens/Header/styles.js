@@ -46,10 +46,9 @@ const Content = styled.div`
   }
 
   #list {
-    top: 60px;
     right: 0px;
     width: 10px;
-    bottom: 560px;
+    bottom: 0px;
     display: flex;
     position: fixed;
     background: #0e223a;

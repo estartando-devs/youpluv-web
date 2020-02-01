@@ -7,13 +7,12 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top: 1px solid #c4c4c4;
   .content {
     display: flex;
     .slide {
       top: -31px;
       width: 34em;
-      left: -20px;
+      left: -90px;
       height: 34em;
       margin: 15px auto;
       position: relative;
@@ -23,7 +22,7 @@ const Container = styled.div`
         background-repeat: no-repeat;
         color: #ffffff;
         position: relative;
-        left: 45em;
+        left: 31em;
       }
       .react-slideshow-container .nav {
         height: 30px;
@@ -55,13 +54,11 @@ const Container = styled.div`
       height: 494px;
     }
     #containerTexts {
-      width: 45em;
-      height: 20em;
-
+      margin-left: -180px;
       h1 {
         width: 20em;
         color: #2b9cc2;
-        font-size: 31px;
+        font-size: 28px;
         font-weight: bold;
         line-height: 44px;
         font-style: normal;
@@ -85,6 +82,7 @@ const Container = styled.div`
         color: #ffffff;
         font-size: 14px;
         margin-top: 7em;
+        font-weight: bold;
         line-height: 17px;
         font-style: normal;
         text-align: center;

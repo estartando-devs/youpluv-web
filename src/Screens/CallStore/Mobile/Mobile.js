@@ -1,8 +1,8 @@
 import React from "react";
 import { useMedia } from "../../../hooks/useMedia";
 import { Container } from "./styles";
-import Playstore from "../../../assets/images/icons/playstore.png";
-import IllustrationApp from "../../../assets/images/illustration-app.png";
+import Imagens from "../../../assets/images";
+import TextGooglePlay from "../../../assets/images/AndroidAppOnGoogle.svg";
 
 export default function AboutUs() {
   const { isMedium, isSmall } = useMedia();
@@ -15,15 +15,14 @@ export default function AboutUs() {
       mobile={isSmall + isMedium}
     >
       <h1>Baixe o app e faça parte dessa iniciativa</h1>
-      <img src={IllustrationApp} />
+      <img src={Imagens.IllustrationApp} />
       <a href={PlayStoreUrl} target="_blank">
         <div class="containerButton">
           <div class="circle">
-            <img src={Playstore} alt="" />
+            <img src={Imagens.Icons.Playstore} alt="" />
           </div>
           <button id="btn">
-            <p id="subText">Android App On GOOGLE PLAY</p>
-            <h2 id="Text">GOOGLE PLAY</h2>
+            <img id="TextBtn" src={TextGooglePlay} alt="" />
           </button>
         </div>
       </a>

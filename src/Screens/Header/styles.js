@@ -6,8 +6,8 @@ const Container = styled.div`
   min-width: 10vw;
   height: 100vh;
   display: flex;
-  background: #49a7de;
-  background-image: url(${props =>  props.mobile ? background : backgroundDesktop});
+  background: #0E223A;
+  background-image: url(${props =>  props.desktop ? backgroundDesktop : null});
   background-repeat: no-repeat;
   background-size: cover;
   align-items: flex-start;
@@ -70,6 +70,7 @@ const Content = styled.div`
       width: 100%;
       display: flex;
       justify-content: center;
+      position:absolute;
       .containerText {
         display: flex;
         text-align: center;

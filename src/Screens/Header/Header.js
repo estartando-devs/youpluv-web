@@ -2,12 +2,14 @@ import React from "react";
 import { useMedia } from "../../hooks/useMedia";
 import { Container, MyText, Content, MyImg } from "./styles";
 import Images from "../../assets/images";
+import CloudStirring from './CloudStirring/cloudStirring'
 
 export default function Header() {
-  const { isMedium, isSmall } = useMedia();
+  const { isLarge, isMedium, isSmall } = useMedia();
 
   return (
-    <Container id="header" mobile={isSmall + isMedium}>
+    <Container id="header" desktop={isLarge} mobile={isSmall + isMedium}>
+      <CloudStirring desktop={isLarge}/>
       <Content mobile={isSmall + isMedium}>
         <div class="containerText">
           <h1 id="Title">YouPluv</h1>

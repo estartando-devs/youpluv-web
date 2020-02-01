@@ -3,7 +3,7 @@ import Lottie from "react-lottie";
 import { Container } from "./styles";
 import animationData from "../../../assets/Animation/cloudStirring.json";
 
-export default function CloudStirring() {
+export default function CloudStirring(props) {
   const defaultOptions = {
     // loop: true,
     autoplay: true,
@@ -13,7 +13,7 @@ export default function CloudStirring() {
     }
   };
   return (
-    <Container>
+    <Container desktop={props.desktop}>
       <Lottie
         width={"100%"}
         height={"100vh"}

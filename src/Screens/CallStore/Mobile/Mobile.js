@@ -9,7 +9,11 @@ export default function AboutUs() {
 
   const PlayStoreUrl = `https://play.google.com/store/search?q`;
   return (
-    <Container desktop={isSmall + isMedium} mobile={isSmall + isMedium}>
+    <Container
+      id="callStore"
+      desktop={isSmall + isMedium}
+      mobile={isSmall + isMedium}
+    >
       <h1>Baixe o app e faça parte dessa iniciativa</h1>
       <img src={IllustrationApp} />
       <a href={PlayStoreUrl} target="_blank">

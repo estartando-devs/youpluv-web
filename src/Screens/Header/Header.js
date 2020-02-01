@@ -2,14 +2,14 @@ import React from "react";
 import { useMedia } from "../../hooks/useMedia";
 import { Container, MyText, Content, MyImg } from "./styles";
 import Images from "../../assets/images";
-import CloudStirring from './CloudStirring/cloudStirring'
+import CloudStirring from "./CloudStirring/cloudStirring";
 
 export default function Header() {
   const { isLarge, isMedium, isSmall } = useMedia();
 
   return (
     <Container id="header" desktop={isLarge} mobile={isSmall + isMedium}>
-      <CloudStirring desktop={isLarge}/>
+      <CloudStirring desktop={isLarge} />
       <Content mobile={isSmall + isMedium}>
         <div class="containerText">
           <h1 id="Title">YouPluv</h1>
@@ -34,8 +34,7 @@ export default function Header() {
           </li>
         </ul>
       </Content>
-
-      <a id="arrow" href="#aboutUs">
+      <a id="arrow" href="#callStore">
         <MyImg mobile={isSmall + isMedium} src={Images.Icons.Arrow} />
       </a>
     </Container>

@@ -7,6 +7,16 @@ import Images from "../../../assets/images";
 
 export default function AboutUs() {
   const { isMedium, isSmall } = useMedia();
+  const properties = {
+    duration: 8000,
+    transitionDuration: 700,
+    // infinite: true
+    // indicators: true,
+    arrow: false
+    // onChange: (oldIndex, newIndex) => {
+    //   console.log(`slide transition from ${oldIndex} to ${newIndex}`);
+    // }
+  };
 
   const PlayStoreUrl = `https://play.google.com/store/search?q`;
   return (
@@ -16,7 +26,7 @@ export default function AboutUs() {
       </h1>
       {/* <div id="subContainer">
       </div> */}
-      <Slide class="slide">
+      <Slide {...properties} class="slide">
         <div className="each-slide slideImgs">
           <div>
             <img class="slideImgs" src={Images.SmartPhoneHome} alt="" />

@@ -6,8 +6,8 @@ const Container = styled.div`
   min-width: 10vw;
   height: 100vh;
   display: flex;
-  background: #0E223A;
-  background-image: url(${props =>  props.desktop ? backgroundDesktop : null});
+  background: #0e223a;
+  background-image: url(${props => (props.desktop ? backgroundDesktop : null)});
   background-repeat: no-repeat;
   background-size: cover;
   align-items: flex-start;
@@ -46,10 +46,10 @@ const Content = styled.div`
   }
 
   #list {
-    top: 310px;
-    width: 10px;
+    top: 60px;
     right: 0px;
-    bottom: 310px;
+    width: 10px;
+    bottom: 560px;
     display: flex;
     position: fixed;
     background: #0e223a;
@@ -70,7 +70,7 @@ const Content = styled.div`
       width: 100%;
       display: flex;
       justify-content: center;
-      position:absolute;
+      position: absolute;
       .containerText {
         display: flex;
         text-align: center;

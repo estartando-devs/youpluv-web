@@ -12,6 +12,7 @@ const Container = styled.div`
   h1 {
     width: 295px;
     color: #2b9cc2;
+    margin: 0 auto;
     font-size: 20px;
     font-weight: bold;
     line-height: 27px;
@@ -23,14 +24,14 @@ const Container = styled.div`
     display: none;
   }
   .slide {
-    height: 30em;
+    height: 35em;
     margin: 15px auto;
     .react-slideshow-container .nav:last-of-type {
       /* margin-left: -30px; */
       background-image: url(${Imagens.Icons.ArrowSvg});
       background-repeat: no-repeat;
-      margin-right: 10px;
-      color: #ffffff;
+      position: relative;
+      left: -10px;
     }
     .react-slideshow-container .nav {
       height: 30px;

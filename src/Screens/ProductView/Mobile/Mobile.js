@@ -21,24 +21,27 @@ export default function AboutUs() {
   const PlayStoreUrl = `https://play.google.com/store/search?q`;
   return (
     <Container desktop={isSmall + isMedium} mobile={isSmall + isMedium}>
-      <h1>
-        Construa seu pluviômetro caseiro e envie dados de chuvas quando quiser
-      </h1>
       {/* <div id="subContainer">
       </div> */}
       <Slide {...properties} class="slide">
         <div className="each-slide slideImgs">
           <div>
+            <h1>O clima em tempo real na palma da sua mão</h1>
             <img class="slideImgs" src={Images.SmartPhoneHome} alt="" />
           </div>
         </div>
         <div className="each-slide slideImgs">
           <div>
+            <h1>
+              Construa seu pluviômetro caseiro e envie dados de chuvas quando
+              quiser
+            </h1>
             <img class="slideImgs" src={Images.Smartphone} alt="" />
           </div>
         </div>
         <div className="each-slide slideImgs">
           <div>
+            <h1>Acesse notícias publicadas diretamente pela Defesa Civil</h1>
             <img class="slideImgs" src={Images.SmartPhoneFeed} alt="" />
           </div>
         </div>

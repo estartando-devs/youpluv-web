@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b52f79ceb6ea726903111a1b0c4f2315",
+    "revision": "4b1b6ff3b0e20c8ea238517a5c1ddd22",
     "url": "/youpluv-web/index.html"
   },
   {
-    "revision": "2f3dba0fc97acb1efbc3",
+    "revision": "97e7db34c4546f71290f",
     "url": "/youpluv-web/static/css/2.5ffa1744.chunk.css"
   },
   {
-    "revision": "d97f7b715df3f5d89b41",
+    "revision": "8bb5fa8fbb347d949260",
     "url": "/youpluv-web/static/css/main.b323f77d.chunk.css"
   },
   {
-    "revision": "2f3dba0fc97acb1efbc3",
-    "url": "/youpluv-web/static/js/2.c3ce036f.chunk.js"
+    "revision": "97e7db34c4546f71290f",
+    "url": "/youpluv-web/static/js/2.5ce659f5.chunk.js"
   },
   {
     "revision": "fae5c910f914cb12e4771c779466be9b",
-    "url": "/youpluv-web/static/js/2.c3ce036f.chunk.js.LICENSE"
+    "url": "/youpluv-web/static/js/2.5ce659f5.chunk.js.LICENSE"
   },
   {
-    "revision": "d97f7b715df3f5d89b41",
-    "url": "/youpluv-web/static/js/main.7109cfc0.chunk.js"
+    "revision": "8bb5fa8fbb347d949260",
+    "url": "/youpluv-web/static/js/main.a6b5e383.chunk.js"
   },
   {
     "revision": "26a5ffe29496287dc483",
@@ -56,12 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/youpluv-web/static/media/home.173e32d4.svg"
   },
   {
-    "revision": "5797aef7a94a8ad2314be4aeb5c95e0c",
-    "url": "/youpluv-web/static/media/illustration-app.5797aef7.png"
-  },
-  {
     "revision": "527a82bf4ec9b666e6f90ee2eb40fb5f",
     "url": "/youpluv-web/static/media/illustration.527a82bf.png"
+  },
+  {
+    "revision": "5797aef7a94a8ad2314be4aeb5c95e0c",
+    "url": "/youpluv-web/static/media/illustrationApp.5797aef7.png"
   },
   {
     "revision": "5437ed8b3a8eefcb6afa85763dda0916",

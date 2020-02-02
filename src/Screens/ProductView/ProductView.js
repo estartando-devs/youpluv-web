@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useMedia } from "../../hooks/useMedia";
 import { Container } from "./styles";
 import ArrowSvg from "../../assets/images/icons/arrow.svg";
@@ -18,6 +18,16 @@ export default function AboutUs() {
     //   console.log(`slide transition from ${oldIndex} to ${newIndex}`);
     // }
   };
+  const [texts, setTexts] = useState([
+    { id: 1, Title: "O clima em tempo real na palma da sua mão" },
+    {
+      id: 2,
+      Title:
+        "Construa seu pluviômetro caseiro e envie dados de chuvas quandoquiser"
+    },
+    { id: 3, Title: "Acesse notícias publicadas diretamente pela Defesa Civil" }
+  ]);
+  // const firstText = arrayTexts.shift()
 
   const PlayStoreUrl = `https://play.google.com/store/search?q`;
   return isLarge ? (
@@ -26,24 +36,28 @@ export default function AboutUs() {
         <Slide {...properties} class="slide">
           <div className="each-slide slideImgs">
             <div>
+              {/* <h1>O clima em tempo real na palma da sua mão</h1> */}
               <img class="slideImgs" src={Images.SmartPhoneHome} alt="" />
             </div>
           </div>
           <div className="each-slide slideImgs">
             <div>
+              {/* <h1>O clima em tempo real na palma da sua mão</h1> */}
               <img class="slideImgs" src={Images.Smartphone} alt="" />
             </div>
           </div>
           <div className="each-slide slideImgs">
             <div>
+              {/* <h1>O clima em tempo real na palma da sua mão</h1> */}
               <img class="slideImgs" src={Images.SmartPhoneFeed} alt="" />
             </div>
           </div>
-        </Slide>{" "}
+        </Slide>
         <div id="containerTexts">
           <h1>
-            Construa seu pluviômetro caseiro e envie dados de chuvas quando
-            quiser
+            {texts.map(text => (
+              <h1 key={text.id}>{text.Title}</h1>
+            ))}
           </h1>
           <p>
             Basta assistir ao nosso tutorial de como construir seu pluviômetro e

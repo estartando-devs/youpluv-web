@@ -12,7 +12,7 @@ const Container = styled.div`
     .slide {
       top: -31px;
       width: 34em;
-      left: -45px;
+      left: -6.5vw;
       height: 34em;
       margin: 15px auto;
       position: relative;
@@ -22,7 +22,7 @@ const Container = styled.div`
         background-repeat: no-repeat;
         color: #ffffff;
         position: relative;
-        left: 30.9em;
+        left: 45vw;
       }
       .react-slideshow-container .nav {
         height: 30px;

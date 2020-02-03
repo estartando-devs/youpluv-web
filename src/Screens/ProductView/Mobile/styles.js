@@ -31,7 +31,7 @@ const Container = styled.div`
       background-image: url(${Imagens.Icons.ArrowSvg});
       background-repeat: no-repeat;
       position: relative;
-      left: -10px;
+      left: -3vw;
     }
     .react-slideshow-container .nav {
       height: 30px;

@@ -15,14 +15,6 @@ const Container = styled.div`
   #arrow {
     display: contents;
   }
-  #Title {
-    color: #ffffff;
-    font-size: 51px;
-    font-weight: bold;
-    line-height: 0px;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-  }
   ${props =>
     props.mobile &&
     css`
@@ -41,7 +33,7 @@ const Content = styled.div`
     display: flex;
     flex-direction: column;
     #logo {
-      display: none;
+      width: fit-content;
     }
   }
 
@@ -75,10 +67,6 @@ const Content = styled.div`
         text-align: center;
         align-items: center;
         flex-direction: column;
-
-        #Title {
-          display: none;
-        }
         #logo {
           display: flex;
         }

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e15e92bb45b4bc10e98f045235efc577",
+    "revision": "eb3018af4dfc0bc5fc8fb873efc42a4b",
     "url": "/youpluv-web/index.html"
   },
   {
-    "revision": "eb621bf45b4975bc01c4",
+    "revision": "f11a197e5b17a39f51a4",
     "url": "/youpluv-web/static/css/2.5ffa1744.chunk.css"
   },
   {
-    "revision": "6f604c836e3171b3901f",
+    "revision": "06d0727d76ca7484e4c7",
     "url": "/youpluv-web/static/css/main.b323f77d.chunk.css"
   },
   {
-    "revision": "eb621bf45b4975bc01c4",
-    "url": "/youpluv-web/static/js/2.2e4f1bd6.chunk.js"
+    "revision": "f11a197e5b17a39f51a4",
+    "url": "/youpluv-web/static/js/2.65d3f16a.chunk.js"
   },
   {
     "revision": "fae5c910f914cb12e4771c779466be9b",
-    "url": "/youpluv-web/static/js/2.2e4f1bd6.chunk.js.LICENSE"
+    "url": "/youpluv-web/static/js/2.65d3f16a.chunk.js.LICENSE"
   },
   {
-    "revision": "6f604c836e3171b3901f",
-    "url": "/youpluv-web/static/js/main.04917cda.chunk.js"
+    "revision": "06d0727d76ca7484e4c7",
+    "url": "/youpluv-web/static/js/main.fbd255cf.chunk.js"
   },
   {
     "revision": "26a5ffe29496287dc483",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c91b1d2d5e36ca7e485064d3f06aac74",
     "url": "/youpluv-web/static/media/AndroidAppOnGoogle.c91b1d2d.svg"
+  },
+  {
+    "revision": "b4c6fa30116a44b76a63939faeeffca3",
+    "url": "/youpluv-web/static/media/BotãoBaixarApp.b4c6fa30.svg"
   },
   {
     "revision": "ae337eddd0613ca80b830172b6762624",
@@ -66,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5437ed8b3a8eefcb6afa85763dda0916",
     "url": "/youpluv-web/static/media/logoBrazilFoundation.5437ed8b.png"
+  },
+  {
+    "revision": "498e3f5e55968181aa1bb5a9b6585405",
+    "url": "/youpluv-web/static/media/logoYouPluv.498e3f5e.png"
   },
   {
     "revision": "1ad1952fa7e2c856389d3edeb0b0ca71",

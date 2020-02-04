@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e3bab884ed4fe1bbf89c00f93989330",
+    "revision": "149c2a0fc8e80e0ffc66d746bfde93c6",
     "url": "/youpluv-web/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/youpluv-web/static/css/2.5ffa1744.chunk.css"
   },
   {
-    "revision": "033d928cb09948eb6230",
+    "revision": "b063352b21f22a22749a",
     "url": "/youpluv-web/static/css/main.b323f77d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/youpluv-web/static/js/2.65d3f16a.chunk.js.LICENSE"
   },
   {
-    "revision": "033d928cb09948eb6230",
-    "url": "/youpluv-web/static/js/main.ba0dada5.chunk.js"
+    "revision": "b063352b21f22a22749a",
+    "url": "/youpluv-web/static/js/main.9d892b00.chunk.js"
   },
   {
     "revision": "26a5ffe29496287dc483",

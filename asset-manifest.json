@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/youpluv-web/static/css/main.b323f77d.chunk.css",
-    "main.js": "/youpluv-web/static/js/main.ba0dada5.chunk.js",
-    "main.js.map": "/youpluv-web/static/js/main.ba0dada5.chunk.js.map",
+    "main.js": "/youpluv-web/static/js/main.9d892b00.chunk.js",
+    "main.js.map": "/youpluv-web/static/js/main.9d892b00.chunk.js.map",
     "runtime-main.js": "/youpluv-web/static/js/runtime-main.5b759235.js",
     "runtime-main.js.map": "/youpluv-web/static/js/runtime-main.5b759235.js.map",
     "static/css/2.5ffa1744.chunk.css": "/youpluv-web/static/css/2.5ffa1744.chunk.css",
     "static/js/2.65d3f16a.chunk.js": "/youpluv-web/static/js/2.65d3f16a.chunk.js",
     "static/js/2.65d3f16a.chunk.js.map": "/youpluv-web/static/js/2.65d3f16a.chunk.js.map",
     "index.html": "/youpluv-web/index.html",
-    "precache-manifest.497afd3ac1d1686113a099fc00fa8679.js": "/youpluv-web/precache-manifest.497afd3ac1d1686113a099fc00fa8679.js",
+    "precache-manifest.ebbeb14e32b6e24bf3691ad40dc89a7a.js": "/youpluv-web/precache-manifest.ebbeb14e32b6e24bf3691ad40dc89a7a.js",
     "service-worker.js": "/youpluv-web/service-worker.js",
     "static/css/2.5ffa1744.chunk.css.map": "/youpluv-web/static/css/2.5ffa1744.chunk.css.map",
     "static/css/main.b323f77d.chunk.css.map": "/youpluv-web/static/css/main.b323f77d.chunk.css.map",
@@ -35,6 +35,6 @@
     "static/css/2.5ffa1744.chunk.css",
     "static/js/2.65d3f16a.chunk.js",
     "static/css/main.b323f77d.chunk.css",
-    "static/js/main.ba0dada5.chunk.js"
+    "static/js/main.9d892b00.chunk.js"
   ]
 }

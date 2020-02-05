@@ -4,6 +4,7 @@ import Mobile from "./Mobile/Mobile";
 import { Container } from "./styles";
 import Imagens from "../../assets/images";
 import TextGooglePlay from "../../assets/images/AndroidAppOnGoogle.svg";
+
 export default function CallStore() {
   const { isLarge } = useMedia();
   const PlayStoreUrl = `https://www.google.com/url?sa=t&source=web&rct=j&url=https://play.google.com/&ved=2ahUKEwiN0LeXlbnnAhViIbkGHUmlCHEQjjgwAHoECAcQAw&usg=AOvVaw17R4zYMafohnWwu5zSuX94`;
@@ -15,8 +16,8 @@ export default function CallStore() {
           Baixe o app <br /> e faça parte dessa iniciativa
         </h1>
         <a href={PlayStoreUrl} target="_blank">
-          <div class="containerButton">
-            <div class="circle">
+          <div className="containerButton">
+            <div className="circle">
               <img src={Imagens.Icons.Playstore} alt="" />
             </div>
             <button id="btn">
@@ -25,7 +26,7 @@ export default function CallStore() {
           </div>
         </a>
       </div>
-      <img src={Imagens.IllustrationApp} />
+      <img style={{width:500}} src={Imagens.IllustrationApp} alt=""/>
     </Container>
   ) : (
     <Mobile />

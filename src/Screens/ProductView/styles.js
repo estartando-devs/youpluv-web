@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import Imagens from "../../assets/images";
 
 const Container = styled.div`

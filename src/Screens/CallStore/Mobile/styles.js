@@ -1,6 +1,6 @@
-import styled, { webkit } from "styled-components";
-import Ellipse from "../../../assets/images/Ellipse.svg";
-import Button from "../../../assets/images/Button.svg";
+import styled from "styled-components";
+// import Ellipse from "../../../assets/images/Ellipse.svg";
+// import Button from "../../../assets/images/Button.svg";
 
 const Container = styled.div`
   display: flex;

@@ -1,7 +1,7 @@
 import React from "react";
 import { useMedia } from "../../../hooks/useMedia";
 import { Container } from "./styles";
-import ArrowSvg from "../../../assets/images/icons/arrow.svg";
+// import ArrowSvg from "../../../assets/images/icons/arrow.svg";
 import { Slide } from "react-slideshow-image";
 import Images from "../../../assets/images";
 
@@ -12,7 +12,7 @@ export default function AboutUs() {
     transitionDuration: 700,
     // infinite: true
     // indicators: true,
-    arrow: false
+    arrow: ''
     // onChange: (oldIndex, newIndex) => {
     //   console.log(`slide transition from ${oldIndex} to ${newIndex}`);
     // }
@@ -23,11 +23,11 @@ export default function AboutUs() {
     <Container desktop={isSmall + isMedium} mobile={isSmall + isMedium}>
       {/* <div id="subContainer">
       </div> */}
-      <Slide {...properties} class="slide">
+      <Slide {...properties} className="slide">
         <div className="each-slide slideImgs">
           <div>
             <h1>O clima em tempo real na palma da sua mão</h1>
-            <img class="slideImgs" src={Images.SmartPhoneHome} alt="" />
+            <img className="slideImgs" src={Images.SmartPhoneHome} alt="" />
           </div>
         </div>
         <div className="each-slide slideImgs">
@@ -36,13 +36,13 @@ export default function AboutUs() {
               Construa seu pluviômetro caseiro e envie dados de chuvas quando
               quiser
             </h1>
-            <img class="slideImgs" src={Images.Smartphone} alt="" />
+            <img className="slideImgs" src={Images.Smartphone} alt="" />
           </div>
         </div>
         <div className="each-slide slideImgs">
           <div>
             <h1>Acesse notícias publicadas diretamente pela Defesa Civil</h1>
-            <img class="slideImgs" src={Images.SmartPhoneFeed} alt="" />
+            <img className="slideImgs" src={Images.SmartPhoneFeed} alt="" />
           </div>
         </div>
       </Slide>

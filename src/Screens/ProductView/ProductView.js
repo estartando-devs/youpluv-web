@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useMedia } from "../../hooks/useMedia";
 import { Container } from "./styles";
-import ArrowSvg from "../../assets/images/icons/arrow.svg";
-import Smartphone from "../../assets/images/smartphone.png";
+// import ArrowSvg from "../../assets/images/icons/arrow.svg";
+// import Smartphone from "../../assets/images/smartphone.png";
 import Mobile from "./Mobile/Mobile";
 import { Slide } from "react-slideshow-image";
 import Images from "../../assets/images";

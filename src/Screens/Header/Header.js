@@ -11,7 +11,7 @@ export default function Header() {
     <Container id="header" desktop={isLarge} mobile={isSmall + isMedium}>
       <CloudStirring desktop={isLarge} />
       <Content mobile={isSmall + isMedium}>
-        <div class="containerText">
+        <div className="containerText">
           <img id="logo" src={Images.YouPluv} alt="" />
           <MyText subTitle>Prevenção de enchentes na palma da mão.</MyText>
         </div>

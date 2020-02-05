@@ -1,4 +1,4 @@
-import styled, { webkit } from "styled-components";
+import styled from "styled-components";
 import Ellipse from "../../assets/images/Ellipse.svg";
 import Button from "../../assets/images/Button.svg";
 

@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 import backgroundDesktop from "../../assets/images/backgroundDesktop.png";
-import background from "../../assets/images/backgroundHeader.png";
+// import background from "../../assets/images/backgroundHeader.png";
 
 const Container = styled.div`
   min-width: 10vw;

@@ -14,9 +14,9 @@ export default function AboutUs() {
       mobile={isSmall + isMedium}
     >
       <h1>Baixe o app e faça parte dessa iniciativa</h1>
-      <img src={Imagens.IllustrationApp} />
+      <img style={{width:340}} src={Imagens.IllustrationApp} alt="" />
       <a href={PlayStoreUrl} target="_blank">
-        <div class="containerButton">
+        <div className="containerButton">
           <img src={Imagens.BotãoBaixarApp} alt="" />
         </div>
       </a>

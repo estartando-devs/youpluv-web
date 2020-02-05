@@ -16,7 +16,7 @@ export default function ProductView(props) {
         mobile={isSmall + isMedium}
       >
         <div
-          class="containerText"
+          className="containerText"
           desktop={isSmall + isMedium}
           mobile={isSmall + isMedium}
           id="containerTexts"
@@ -36,7 +36,7 @@ export default function ProductView(props) {
             </h2>
           </div>
         </div>
-        <img id="illustration" src={illustration}></img>
+        <img id="illustration" src={illustration} alt=""></img>
       </Container>
       {/* </CloudStirring> */}
     </>

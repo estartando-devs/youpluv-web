@@ -2,12 +2,11 @@ import React from "react";
 import { useMedia } from "../../../hooks/useMedia";
 import { Container } from "./styles";
 import Imagens from "../../../assets/images";
-import TextGooglePlay from "../../../assets/images/AndroidAppOnGoogle.svg";
 
 export default function AboutUs() {
   const { isMedium, isSmall } = useMedia();
 
-  const PlayStoreUrl = `https://play.google.com/store/search?q`;
+  const PlayStoreUrl = `https://www.google.com/url?sa=t&source=web&rct=j&url=https://play.google.com/&ved=2ahUKEwiN0LeXlbnnAhViIbkGHUmlCHEQjjgwAHoECAcQAw&usg=AOvVaw17R4zYMafohnWwu5zSuX94`;
   return (
     <Container
       id="callStore"
@@ -18,12 +17,7 @@ export default function AboutUs() {
       <img src={Imagens.IllustrationApp} />
       <a href={PlayStoreUrl} target="_blank">
         <div class="containerButton">
-          <div class="circle">
-            <img src={Imagens.Icons.Playstore} alt="" />
-          </div>
-          <button id="btn">
-            <img id="TextBtn" src={TextGooglePlay} alt="" />
-          </button>
+          <img src={Imagens.BotãoBaixarApp} alt="" />
         </div>
       </a>
     </Container>

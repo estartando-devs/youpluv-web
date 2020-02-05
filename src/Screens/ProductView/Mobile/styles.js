@@ -2,10 +2,10 @@ import styled, { css } from "styled-components";
 import Imagens from "../../../assets/images";
 
 const Container = styled.div`
-  margin-bottom: 10px;
+  display: flex;
   min-width: 10vw;
   min-height: 80vh;
-  display: flex;
+  margin-bottom: 10px;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -24,25 +24,23 @@ const Container = styled.div`
     display: none;
   }
   .slide {
-    height: 35em;
+    height: 40em;
     margin: 15px auto;
     .react-slideshow-container .nav:last-of-type {
-      /* margin-left: -30px; */
-      background-image: url(${Imagens.Icons.ArrowSvg});
-      background-repeat: no-repeat;
-      position: relative;
+      top: 45px;
       left: -3vw;
+      position: relative;
+      background-repeat: no-repeat;
+      background-image: url(${Imagens.Icons.ArrowSvg});
     }
     .react-slideshow-container .nav {
-      height: 30px;
-      background: none;
       width: 30px;
-      z-index: 10;
-      text-align: center;
-      cursor: pointer;
       color: #fff;
-      border-radius: 50%;
+      height: 30px;
       display: flex;
+      cursor: pointer;
+      background: none;
+      text-align: center;
       align-items: center;
       justify-content: center;
     }
@@ -50,14 +48,13 @@ const Container = styled.div`
       display: none;
     }
     .react-slideshow-container {
+      width: 100vw;
       display: flex;
       align-items: center;
-      width: 100vw;
     }
     .slideImgs {
       width: 310px;
-      /* height: 468px; */
-      margin: auto auto;
+      margin: 40px auto;
     }
     .arrow {
       margin-left: -30px;
@@ -69,16 +66,14 @@ const Container = styled.div`
     border: none;
     outline: none;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 25px;
-    font-weight: bold;
     font-weight: bold;
     line-height: 17px;
     font-style: normal;
     text-align: center;
     background: #2b9cc2;
     border-radius: 20px;
-    font-family: "Montserrat";
     &:hover {
       opacity: 0.6;
       transition: 0.8s;

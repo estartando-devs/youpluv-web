@@ -18,7 +18,7 @@ export default function AboutUs() {
     // }
   };
 
-  const PlayStoreUrl = `https://play.google.com/store/search?q`;
+  const PlayStoreUrl = `https://www.google.com/url?sa=t&source=web&rct=j&url=https://play.google.com/&ved=2ahUKEwiN0LeXlbnnAhViIbkGHUmlCHEQjjgwAHoECAcQAw&usg=AOvVaw17R4zYMafohnWwu5zSuX94`;
   return (
     <Container desktop={isSmall + isMedium} mobile={isSmall + isMedium}>
       {/* <div id="subContainer">
@@ -47,7 +47,7 @@ export default function AboutUs() {
         </div>
       </Slide>
       <a href={PlayStoreUrl} target="_blank">
-        <button>BAIXAR &nbsp; APP</button>
+        <button>BAIXAR APP</button>
       </a>
     </Container>
   );

@@ -42,10 +42,25 @@ const Container = styled.div`
   ${props =>
     props.mobile &&
     css`
-      height: 35vh;
+      height: 155px;
       flex-direction: column;
       .flex {
-        margin-top: -30px;
+        height: 5em;
+        h2 {
+          margin-bottom: -10px;
+          color: #727376;
+          font-size: 15px;
+          line-height: 15px;
+          font-style: normal;
+          font-weight: normal;
+          font-family: "Montserrat";
+        }
+      }
+      .devText {
+        margin-top: -20px;
+      }
+      .logoDevs {
+        margin: 20px 0px -25px 0px;
       }
       .content {
         width: 100%;
@@ -54,9 +69,15 @@ const Container = styled.div`
         align-items: center;
         justify-content: center;
 
+        #logoBrazil {
+          height: 62px;
+          width: 90px;
+        }
+
         img {
           max-width: 100px;
-          margin: 5px 0px;
+          margin: 0 auto;
+          /* height: 24px; */
         }
       }
     `};

@@ -9,13 +9,13 @@ export default function Footer() {
   return (
     <Container mobile={isSmall + isMedium}>
       <div class="flex">
-        <h2>Desenvolvido por:</h2>
-        <img src={Images.LogoDevs} alt="" />
+        <h2 className="devText">Desenvolvido por:</h2>
+        <img className="logoDevs" src={Images.LogoDevs} alt="" />
       </div>
       <div class="apoio flex">
         <h2>Apoio:</h2>
-        <div class="content ">
-          <img src={Images.LogoBrazilFoundation} alt="" />
+        <div class="content">
+          <img id="logoBrazil" src={Images.LogoBrazilFoundation} alt="" />
           <img src={Images.LogoFundação} alt="" />
           <img src={Images.LogoDefeçaCivil} alt="" />
         </div>

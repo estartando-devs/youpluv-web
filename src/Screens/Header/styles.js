@@ -68,7 +68,9 @@ const Content = styled.div`
         align-items: center;
         flex-direction: column;
         #logo {
-          display: flex;
+          width: 252px;
+          height: 72.59px;
+          margin-bottom: 25px;
         }
         h2 {
           width: 15em;

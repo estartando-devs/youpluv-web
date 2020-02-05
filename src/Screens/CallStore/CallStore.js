@@ -6,7 +6,7 @@ import Imagens from "../../assets/images";
 import TextGooglePlay from "../../assets/images/AndroidAppOnGoogle.svg";
 export default function CallStore() {
   const { isLarge } = useMedia();
-  const PlayStoreUrl = `https://play.google.com/store/search?q`;
+  const PlayStoreUrl = `https://www.google.com/url?sa=t&source=web&rct=j&url=https://play.google.com/&ved=2ahUKEwiN0LeXlbnnAhViIbkGHUmlCHEQjjgwAHoECAcQAw&usg=AOvVaw17R4zYMafohnWwu5zSuX94`;
 
   return isLarge ? (
     <Container id="callStore">
@@ -31,5 +31,3 @@ export default function CallStore() {
     <Mobile />
   );
 }
-
-  

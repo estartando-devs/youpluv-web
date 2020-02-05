@@ -7,6 +7,7 @@ import Smartphone from "./smartphone.png";
 import SmartPhoneFeed from "./smartPhoneFeed.png";
 import SmartPhoneHome from "./smartPhoneHome.png";
 import Ellipse from "./Ellipse.svg";
+import BotãoBaixarApp from "./BotãoBaixarApp.svg";
 import LogoBrazilFoundation from "./logoBrazilFoundation.png";
 import LogoDefeçaCivil from "./logoDefeçaCivil.png";
 import LogoFundação from "./logoFundação.png";
@@ -22,6 +23,7 @@ const Images = {
   IllustrationApp,
   SmartPhoneFeed,
   SmartPhoneHome,
+  BotãoBaixarApp,
   Illustration,
   LogoFundação,
   Smartphone,

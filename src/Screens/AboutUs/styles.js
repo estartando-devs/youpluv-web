@@ -19,20 +19,20 @@ const Container = styled.div`
   ${props =>
     props.mobile &&
     css`
-      min-height: 100vh;
       display: flex;
       min-width: 100vw;
+      min-height: 100vh;
       flex-direction: column;
 
       #Title {
         color: #2b9cc2;
-        font-size: 22px;
+        font-size: 25px;
         margin-left: 10px;
         line-height: 27px;
         font-weight: bold;
-        margin: 35px 15px;
+        margin: 60px 70px;
         font-style: normal;
-        font-family: "Montserrat", sans-serif;
+        font-family: "Montserrat";
       }
 
       #subTexts {
@@ -46,17 +46,17 @@ const Container = styled.div`
       }
       h2 {
         display: flex;
-        color: #00151cd1;
+        color: #00151c;
         font-size: 15px;
         flex-wrap: wrap;
         min-width: 50vw;
-        font-weight: 100;
+        font-weight: normal;
         margin: 20px auto;
         line-height: 20px;
         font-style: normal;
         text-overflow: ellipsis;
         justify-content: center;
-        font-family: Arial, sans-serif bold;
+        font-family: "Montserrat";
       }
     `};
   ${props =>

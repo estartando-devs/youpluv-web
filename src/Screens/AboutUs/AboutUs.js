@@ -30,9 +30,9 @@ export default function ProductView(props) {
             </h2>
             <h2>
               Tendo a colaboração da própria população, com apenas um simples
-              pluviômetro caseiro e possível gerar informações para a base de
-              sistemas e assim podemos emitir alertas para a população quando
-              houver riscos de desastre
+              pluviômetro caseiro é possível gerar informações para a base de
+              sistemas, e assim podemos emitir alertas para a população quando
+              houverem riscos de desastres.
             </h2>
           </div>
         </div>

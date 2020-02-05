@@ -1,51 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "202794df3fa25084a432272aa9996a36",
+    "revision": "95dd3b967a5a882b132263e942574e88",
     "url": "/youpluv-web/index.html"
   },
   {
-    "revision": "f11a197e5b17a39f51a4",
+    "revision": "7d61b71a1684e772d6d2",
     "url": "/youpluv-web/static/css/2.5ffa1744.chunk.css"
   },
   {
-    "revision": "4abe4edc5305a8537f8c",
-    "url": "/youpluv-web/static/css/main.b323f77d.chunk.css"
+    "revision": "d1014ee13fbf854ed296",
+    "url": "/youpluv-web/static/css/main.01c22810.chunk.css"
   },
   {
-    "revision": "f11a197e5b17a39f51a4",
-    "url": "/youpluv-web/static/js/2.65d3f16a.chunk.js"
+    "revision": "7d61b71a1684e772d6d2",
+    "url": "/youpluv-web/static/js/2.afe18d2f.chunk.js"
   },
   {
     "revision": "fae5c910f914cb12e4771c779466be9b",
-    "url": "/youpluv-web/static/js/2.65d3f16a.chunk.js.LICENSE"
+    "url": "/youpluv-web/static/js/2.afe18d2f.chunk.js.LICENSE"
   },
   {
-    "revision": "4abe4edc5305a8537f8c",
-    "url": "/youpluv-web/static/js/main.2e0c155e.chunk.js"
+    "revision": "d1014ee13fbf854ed296",
+    "url": "/youpluv-web/static/js/main.ee22b077.chunk.js"
   },
   {
-    "revision": "26a5ffe29496287dc483",
-    "url": "/youpluv-web/static/js/runtime-main.5b759235.js"
+    "revision": "d7a962438769785460ae",
+    "url": "/youpluv-web/static/js/runtime-main.e349c0c3.js"
   },
   {
-    "revision": "c91b1d2d5e36ca7e485064d3f06aac74",
-    "url": "/youpluv-web/static/media/AndroidAppOnGoogle.c91b1d2d.svg"
+    "revision": "8b993c48e080d6ecda5c607d11f11187",
+    "url": "/youpluv-web/static/media/AndroidAppOnGoogle.8b993c48.svg"
   },
   {
-    "revision": "b4c6fa30116a44b76a63939faeeffca3",
-    "url": "/youpluv-web/static/media/BotãoBaixarApp.b4c6fa30.svg"
+    "revision": "4b533c56616c8e0d25c68e90e0e8e3cf",
+    "url": "/youpluv-web/static/media/BotãoBaixarApp.4b533c56.svg"
   },
   {
-    "revision": "ae337eddd0613ca80b830172b6762624",
-    "url": "/youpluv-web/static/media/Button.ae337edd.svg"
+    "revision": "1629ce3e0595f2c9a8ce5055cd683212",
+    "url": "/youpluv-web/static/media/Button.1629ce3e.svg"
   },
   {
-    "revision": "f3515195a0618505bfa972cde8ecad7e",
-    "url": "/youpluv-web/static/media/Ellipse.f3515195.svg"
+    "revision": "2b75bda24abdff451fe8924a44850d52",
+    "url": "/youpluv-web/static/media/Ellipse.2b75bda2.svg"
   },
   {
-    "revision": "79d7497d97bbde1c5e658ed7e8efc6c1",
-    "url": "/youpluv-web/static/media/arrow.79d7497d.svg"
+    "revision": "7d53048680eed3809ce55678a9d3e9a4",
+    "url": "/youpluv-web/static/media/arrow.7d530486.svg"
   },
   {
     "revision": "a263e818d6461d8762c7508b13e6e4fb",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/youpluv-web/static/media/backgroundHeader.e8f95d05.png"
   },
   {
-    "revision": "c1f2e623cc28745ddbf9f44d78f21ef7",
-    "url": "/youpluv-web/static/media/home.c1f2e623.svg"
+    "revision": "9241edf4b454f3ffa71f618e6fcbdf2d",
+    "url": "/youpluv-web/static/media/home.9241edf4.svg"
   },
   {
     "revision": "527a82bf4ec9b666e6f90ee2eb40fb5f",

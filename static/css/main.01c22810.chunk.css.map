@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css","index.css"],"names":[],"mappings":"AAAA,UCCE,QDIF,CALA,KACE,SAAU,CAEV,WAAY,CACZ,YACF","file":"main.01c22810.chunk.css","sourcesContent":[".App {\r\n  padding: 0;\r\n  margin: 0;\r\n  width: 100vw;\r\n  height: 100vh;\r\n}","body {\r\n  margin: 0;\r\n}\r\n\r\n"]}

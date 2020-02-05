@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/youpluv-web/static/css/main.b323f77d.chunk.css",
-    "main.js": "/youpluv-web/static/js/main.e1320e04.chunk.js",
-    "main.js.map": "/youpluv-web/static/js/main.e1320e04.chunk.js.map",
+    "main.js": "/youpluv-web/static/js/main.2e0c155e.chunk.js",
+    "main.js.map": "/youpluv-web/static/js/main.2e0c155e.chunk.js.map",
     "runtime-main.js": "/youpluv-web/static/js/runtime-main.5b759235.js",
     "runtime-main.js.map": "/youpluv-web/static/js/runtime-main.5b759235.js.map",
     "static/css/2.5ffa1744.chunk.css": "/youpluv-web/static/css/2.5ffa1744.chunk.css",
     "static/js/2.65d3f16a.chunk.js": "/youpluv-web/static/js/2.65d3f16a.chunk.js",
     "static/js/2.65d3f16a.chunk.js.map": "/youpluv-web/static/js/2.65d3f16a.chunk.js.map",
     "index.html": "/youpluv-web/index.html",
-    "precache-manifest.819574f7b928acdd5079447e9a22a0dc.js": "/youpluv-web/precache-manifest.819574f7b928acdd5079447e9a22a0dc.js",
+    "precache-manifest.3e4340bc98f1624008aeeb3eac265718.js": "/youpluv-web/precache-manifest.3e4340bc98f1624008aeeb3eac265718.js",
     "service-worker.js": "/youpluv-web/service-worker.js",
     "static/css/2.5ffa1744.chunk.css.map": "/youpluv-web/static/css/2.5ffa1744.chunk.css.map",
     "static/css/main.b323f77d.chunk.css.map": "/youpluv-web/static/css/main.b323f77d.chunk.css.map",
@@ -21,7 +21,7 @@
     "static/media/arrow.svg": "/youpluv-web/static/media/arrow.79d7497d.svg",
     "static/media/backgroundDesktop.png": "/youpluv-web/static/media/backgroundDesktop.a263e818.png",
     "static/media/backgroundHeader.png": "/youpluv-web/static/media/backgroundHeader.e8f95d05.png",
-    "static/media/home.svg": "/youpluv-web/static/media/home.173e32d4.svg",
+    "static/media/home.svg": "/youpluv-web/static/media/home.c1f2e623.svg",
     "static/media/illustration.png": "/youpluv-web/static/media/illustration.527a82bf.png",
     "static/media/illustrationApp.png": "/youpluv-web/static/media/illustrationApp.5797aef7.png",
     "static/media/logoBrazilFoundation.png": "/youpluv-web/static/media/logoBrazilFoundation.5437ed8b.png",
@@ -35,6 +35,6 @@
     "static/css/2.5ffa1744.chunk.css",
     "static/js/2.65d3f16a.chunk.js",
     "static/css/main.b323f77d.chunk.css",
-    "static/js/main.e1320e04.chunk.js"
+    "static/js/main.2e0c155e.chunk.js"
   ]
 }

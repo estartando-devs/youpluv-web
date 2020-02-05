@@ -16,7 +16,7 @@ export default function CloudStirring(props) {
     <Container desktop={props.desktop}>
       <Lottie
         width={"100%"}
-        height={"100vh"}
+        height={"100%"}
         zoom={1}
         autoSize
         autoPlay

@@ -27,7 +27,7 @@ const Container = styled.div`
     align-items: center;
   }
   h2 {
-    color: #727376;
+    color: #F7F7F7;
     font-size: 15px;
     line-height: 10px;
     /* margin: 15px auto; */

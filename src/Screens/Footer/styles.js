@@ -29,7 +29,7 @@ const Container = styled.div`
   h2 {
     color: #727376;
     font-size: 15px;
-    line-height: 15px;
+    line-height: 10px;
     /* margin: 15px auto; */
     font-style: normal;
     font-weight: normal;
@@ -49,7 +49,7 @@ const Container = styled.div`
         h2 {
           margin-bottom: -10px;
           color: #727376;
-          font-size: 15px;
+          font-size: 10px;
           line-height: 15px;
           font-style: normal;
           font-weight: normal;
@@ -60,6 +60,7 @@ const Container = styled.div`
         margin-top: -20px;
       }
       .logoDevs {
+        width: 60px;
         margin: 20px 0px -25px 0px;
       }
       .content {
@@ -70,14 +71,12 @@ const Container = styled.div`
         justify-content: center;
 
         #logoBrazil {
-          height: 62px;
-          width: 90px;
+          width: 80px;
         }
 
         img {
-          max-width: 100px;
+          width: 80px;
           margin: 0 auto;
-          /* height: 24px; */
         }
       }
     `};

@@ -16,8 +16,8 @@ export default function Footer() {
         <h2>Apoio:</h2>
         <div className="content">
           <img id="logoBrazil" src={Images.LogoBrazilFoundation} alt="" />
-          <img src={Images.LogoFundação} alt="" />
-          <img src={Images.LogoDefeçaCivil} alt="" />
+          <img id="logoAngelica" src={Images.LogoFundação} alt="" />
+          <img id="logoDefesa" src={Images.LogoDefeçaCivil} alt="" />
         </div>
       </div>
     </Container>

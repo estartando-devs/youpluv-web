@@ -36,8 +36,20 @@ const Container = styled.div`
     font-family: "Montserrat";
   }
   img {
-    max-width: 120px;
     margin: 5px 15px;
+  }
+
+  .logoDevs {
+    width: 90px;
+  }
+  #logoBrazil {
+    width: 89px;
+  }
+  #logoAngelica {
+    width: 103px;
+  }
+  #logoDefesa {
+    width: 72px;
   }
   ${props =>
     props.mobile &&
@@ -60,7 +72,7 @@ const Container = styled.div`
         margin-top: -20px;
       }
       .logoDevs {
-        width: 60px;
+        width: 54.17px;
         margin: 20px 0px -25px 0px;
       }
       .content {
@@ -71,12 +83,13 @@ const Container = styled.div`
         justify-content: center;
 
         #logoBrazil {
-          width: 80px;
+          width: 49.09px;
         }
-
-        img {
-          width: 80px;
-          margin: 0 auto;
+        #logoAngelica {
+          width: 66.81px;
+        }
+        #logoDefesa {
+          width: 42.55px;
         }
       }
     `};

@@ -24,25 +24,26 @@ const Container = styled.div`
       min-height: 100vh;
       flex-direction: column;
 
+      .containerText {
+        margin: 70px 0px 0px 30px;
+      }
+
       #Title {
         color: #2b9cc2;
         font-size: 25px;
-        margin-left: 10px;
         line-height: 27px;
         font-weight: bold;
-        margin: 60px 70px;
         font-style: normal;
         font-family: "Montserrat";
       }
 
       #subTexts {
         width: calc(315px - 30px);
-        margin: 0 auto;
       }
 
       #illustration {
-        max-width: 315px;
-        margin: 90px auto;
+        max-width: 300px;
+        margin: 76px auto;
       }
       h2 {
         display: flex;

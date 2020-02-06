@@ -25,7 +25,7 @@ const Container = styled.div`
       flex-direction: column;
 
       .containerText {
-        margin: 70px 0px 0px 30px;
+        margin: 70px 30px 0px 30px;
       }
 
       #Title {
@@ -35,10 +35,6 @@ const Container = styled.div`
         font-weight: bold;
         font-style: normal;
         font-family: "Montserrat";
-      }
-
-      #subTexts {
-        width: calc(315px - 30px);
       }
 
       #illustration {

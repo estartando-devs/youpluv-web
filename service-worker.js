@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/youpluv-web/precache-manifest.9e495489c956856464fc41b39456fd38.js"
+  "/youpluv-web/precache-manifest.3d4513110b0b410a9c0383d47aaa4f6a.js"
 );
 
 self.addEventListener('message', (event) => {
